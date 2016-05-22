@@ -33,8 +33,8 @@ function Node(n) {
 
 
 
-    var err = new Error();
-    console.log("For debug: Node creation from:"+ err.stack)
+    //var err = new Error();
+    //console.log("For debug: Node creation from:"+ err.stack)
 
     this.inputWires = n.inputWires
 
