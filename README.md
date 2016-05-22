@@ -1,3 +1,14 @@
+## Attempt to add multi inputs
+
+#### description:
+Function contain a new parameter, nbr of inputs. If this value is bigger than 1 the flow send the msg only if all the inputs msg are filled . Then use the name of the input node to create a new msg like:   
+```
+msg.load = { functionInput1: xxxx, functionInput2: xxxx, functionInput3: xxxx  }
+```  
+To "reset" the inputs msg we have a special node called :" synNode..."
+
+
+
 
 url: http://127.0.0.1:1880/
 
